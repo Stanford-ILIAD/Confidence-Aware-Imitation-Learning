@@ -142,6 +142,16 @@ tensorboard --logdir='<path-to-summary>'
 
 We provide the pre-trained models in the folder `./weights/Pretrained`. We train each algorithm in each environment 10 times in our paper, and we provide all the converged models. 
 
+### Make Gifs
+
+We provide the following command to make gifs of trained agents:
+
+```bash
+python make_gif.py --env-id Reacher-v2 --weight "./weights/Pretrained/Reacher-v2/cail/actor_0.pkl" --algo cail --episodes 5
+```
+
+This will generate `./figs/<env_id>/actor_0.gif`, which shows the performance of the agent.
+
 ## Results
 
 To reproduce our results shown in the paper, you can use our [pre-collected demonstrations](https://drive.google.com/drive/folders/1MpOdxP32W5EktF5-4QYmVq1krhJjAjvY?usp=sharing), and train all the algorithms use the aforementioned commands with the [hyper-parameters](#hyper-parameters). Note that we use random seeds 0~9 to train each algorithm 10 times. The results should be like Figure 2.
@@ -167,6 +177,42 @@ The numerical results of the converged policies are here in the table:
 |  T-REX  |    $-66.371\pm21.295$     |     $-1867.930\pm318.339$     |
 |  D-REX  |    $-78.102\pm14.918$     |     $-2467.779\pm135.175$     |
 |  SSRR   |    $-70.044\pm14.735$     |     $-105.346\pm210.837$      |
+
+We also show the gifs of the trained agents:
+
+- **Reacher-v2**
+
+<center>
+    <img src="./figs/Reacher-v2/cail_actor_0.gif" alt="cail" style="zoom:100%;" >
+    <img src="./figs/Reacher-v2/2iwil_actor_0.gif" alt="2iwil" style="zoom:100%;">
+    <img src="./figs/Reacher-v2/icgail_actor_0.gif" alt="icgail" style="zoom:100%;">
+    <img src="./figs/Reacher-v2/airl_actor_0.gif" alt="airl" style="zoom:100%;">
+    <img src="./figs/Reacher-v2/gail_actor_0.gif" alt="gail" style="zoom:100%;">
+    <img src="./figs/Reacher-v2/trex_actor_0.gif" alt="trex" style="zoom:100%;">
+    <img src="./figs/Reacher-v2/drex_actor_0.gif" alt="drex" style="zoom:100%;">
+    <img src="./figs/Reacher-v2/ssrr_actor_0.gif" alt="ssrr" style="zoom:100%;">
+    <br> 
+    <div align="center">
+        Figure 3: Behavior of the trained agents in Reacher environment. Order: CAIL, 2IWIL, IC-GAIL, AIRL, GAIL, T-REX, D-REX, SSRR.
+    </div>
+</center>
+
+- **Ant-v2**
+
+  <center>
+      <img src="./figs/Ant-v2/cail_actor_0.gif" alt="cail" style="zoom:100%;" >
+      <img src="./figs/Ant-v2/2iwil_actor_0.gif" alt="2iwil" style="zoom:100%;">
+      <img src="./figs/Ant-v2/icgail_actor_0.gif" alt="icgail" style="zoom:100%;">
+      <img src="./figs/Ant-v2/airl_actor_0.gif" alt="airl" style="zoom:100%;">
+      <img src="./figs/Ant-v2/gail_actor_0.gif" alt="gail" style="zoom:100%;">
+      <img src="./figs/Ant-v2/trex_actor_0.gif" alt="trex" style="zoom:100%;">
+      <img src="./figs/Ant-v2/drex_actor_0.gif" alt="drex" style="zoom:100%;">
+      <img src="./figs/Ant-v2/ssrr_actor_0.gif" alt="ssrr" style="zoom:100%;">
+      <br> 
+      <div align="center">
+          Figure 4: Behavior of the trained agents in Ant environment. Order: CAIL, 2IWIL, IC-GAIL, AIRL, GAIL, T-REX, D-REX, SSRR.
+      </div>
+  </center>
 
 ## Citation
 
