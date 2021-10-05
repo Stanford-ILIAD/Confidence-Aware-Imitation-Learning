@@ -1,0 +1,37 @@
+# Hyper-params for training experts
+expert:
+  Ant-v2:
+    env_id: Ant-v2
+    algo: ppo
+    num_steps: 10000000
+    eval_interval: 100000
+    rollout: 10000
+    seed: 0
+  Reacher-v2:
+    env_id: Reacher-v2
+    algo: sac
+    num_steps: 100000
+    eval_interval: 1000
+    rollout: 100000
+    seed: 0
+
+# Hyper-params for training imitation learning algorithms
+imitation:
+  Ant-v2:
+    env_id: Ant-v2
+    buffer: "./buffers/Ant-v2/size200000_reward_4787.23_3739.91_2947.49_2115.17_789.13.pth"
+    rollout_length: 10000
+    num_steps: 20000000
+    eval_interval: 40000
+    label: 0.05
+    lr_conf: 0.1
+    pre_train: 5000000
+  Reacher-v2:
+    env_id: Reacher-v2
+    buffer: "./buffers/Reacher-v2/size10000_reward_-4.31_-41.67_-71.62_-77.84_-80.5.pth"
+    rollout_length: 5000
+    num_steps: 2500000
+    eval_interval: 5000
+    label: 0.05
+    lr_conf: 0.1
+    pre_train: 1000000
