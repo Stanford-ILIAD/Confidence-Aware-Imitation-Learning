@@ -17,7 +17,6 @@ Official implementation of the NeurIPS 2021 paper: [S Zhang](https://syzhang0922
 You need to have the following libraries with [Python3](https://www.python.org/):
 
 - [MuJoCo](http://www.mujoco.org/) (This should be installed first)
-
 - [Matplotlib](https://matplotlib.org/)
 - [NumPy](https://numpy.org/)
 - [Gym](https://gym.openai.com/)
@@ -41,7 +40,7 @@ Note that you need to install [MuJoCo](http://www.mujoco.org/) on your device fi
 
 ## Install
 
-Install CAIL: 
+Install CAIL: First clone this repo, then run
 
 ```bash
 pip install -e .
