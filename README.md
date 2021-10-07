@@ -218,11 +218,11 @@ We also show the gifs of the trained agents:
 ## Citation
 
 ```
-@article{zhang2021cail,
-  title={Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality},
-  author={Zhang, Songyuan and Cao, Zhangjie and Sadigh, Dorsa and Sui, Yanan},
-  journal={Advances in neural information processing systems},
-  year={2021}
+@inproceedings{zhang2021cail,
+ title={Confidence-Aware Imitation Learning from Demonstrations with Varying Optimality},
+ author={Zhang, Songyuan and Cao, Zhangjie and Sadigh, Dorsa and Sui, Yanan},
+ booktitle={Conference on Neural Information Processing Systems (NeurIPS)},
+ year={2021}
 }
 ```
 
