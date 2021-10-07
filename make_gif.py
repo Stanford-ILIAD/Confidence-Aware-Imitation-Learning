@@ -92,7 +92,7 @@ if __name__ == '__main__':
     # custom
     p.add_argument('--render', action='store_true', default=False,
                    help='render the environment or not')
-    p.add_argument('--gif-path', type=str, default='./figs',
+    p.add_argument('--gif-path', type=str, default='./gifs',
                    help='path to save gifs')
 
     # default

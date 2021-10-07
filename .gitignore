@@ -1,6 +1,7 @@
 # logs and buffers
 logs/
 buffers/*
+gifs/
 
 # settings
 .idea/

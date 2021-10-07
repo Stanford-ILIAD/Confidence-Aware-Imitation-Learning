@@ -178,42 +178,75 @@ The numerical results of the converged policies are here in the table:
 |  D-REX  |    $-78.102\pm14.918$     |     $-2467.779\pm135.175$     |
 |  SSRR   |    $-70.044\pm14.735$     |     $-105.346\pm210.837$      |
 
-We also show the gifs of the trained agents:
+We also show the gifs of the demonstrations and trained agents:
 
 - **Reacher-v2**
 
-  <center>
-      <img src="./figs/Reacher-v2/cail_actor_0.gif" alt="cail" style="zoom:75%;" >
-      <img src="./figs/Reacher-v2/2iwil_actor_0.gif" alt="2iwil" style="zoom:75%;">
-      <img src="./figs/Reacher-v2/icgail_actor_0.gif" alt="icgail" style="zoom:75%;">
-      <img src="./figs/Reacher-v2/airl_actor_0.gif" alt="airl" style="zoom:75%;">
-      <img src="./figs/Reacher-v2/gail_actor_0.gif" alt="gail" style="zoom:75%;">
-      <img src="./figs/Reacher-v2/trex_actor_0.gif" alt="trex" style="zoom:75%;">
-      <img src="./figs/Reacher-v2/drex_actor_0.gif" alt="drex" style="zoom:75%;">
-      <img src="./figs/Reacher-v2/ssrr_actor_0.gif" alt="ssrr" style="zoom:75%;">
-      <br> 
-      <div align="center">
-          Figure 3: Behavior of the trained agents in Reacher environment. Order: CAIL, 2IWIL, IC-GAIL, AIRL, GAIL, T-REX, D-REX, SSRR.
-      </div>
-  </center>
+  - **Demonstrations**
+
+    <center>
+        <img src="./figs/Reacher-v2/sac_5000.gif" alt="sac_5000" style="zoom:75%;" >
+        <img src="./figs/Reacher-v2/sac_10000.gif" alt="sac_10000" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/sac_11000.gif" alt="sac_11000" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/sac_12000.gif" alt="sac_12000" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/sac_100000.gif" alt="sac_100000" style="zoom:75%;">
+        <br> 
+        <div align="center">
+            Figure 3: Demonstrations in Reacher environment with increasing optimality.
+        </div>
+    </center>
+
+  - **Trained Agents**
+
+    <center>
+        <img src="./figs/Reacher-v2/cail_actor_0.gif" alt="cail" style="zoom:75%;" >
+        <img src="./figs/Reacher-v2/2iwil_actor_0.gif" alt="2iwil" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/icgail_actor_0.gif" alt="icgail" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/airl_actor_0.gif" alt="airl" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/gail_actor_0.gif" alt="gail" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/trex_actor_0.gif" alt="trex" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/drex_actor_0.gif" alt="drex" style="zoom:75%;">
+        <img src="./figs/Reacher-v2/ssrr_actor_0.gif" alt="ssrr" style="zoom:75%;">
+        <br> 
+        <div align="center">
+            Figure 4: Behavior of the trained agents in Reacher environment. Order: CAIL, 2IWIL, IC-GAIL, AIRL, GAIL, T-REX, D-REX, SSRR.
+        </div>
+    </center>
 
 
 - **Ant-v2**
 
-  <center>
-      <img src="./figs/Ant-v2/cail_actor_0.gif" alt="cail" style="zoom:75%;" >
-      <img src="./figs/Ant-v2/2iwil_actor_0.gif" alt="2iwil" style="zoom:75%;">
-      <img src="./figs/Ant-v2/icgail_actor_0.gif" alt="icgail" style="zoom:75%;">
-      <img src="./figs/Ant-v2/airl_actor_0.gif" alt="airl" style="zoom:75%;">
-      <img src="./figs/Ant-v2/gail_actor_0.gif" alt="gail" style="zoom:75%;">
-      <img src="./figs/Ant-v2/trex_actor_0.gif" alt="trex" style="zoom:75%;">
-      <img src="./figs/Ant-v2/drex_actor_0.gif" alt="drex" style="zoom:75%;">
-      <img src="./figs/Ant-v2/ssrr_actor_0.gif" alt="ssrr" style="zoom:75%;">
-      <br> 
-      <div align="center">
-          Figure 4: Behavior of the trained agents in Ant environment. Order: CAIL, 2IWIL, IC-GAIL, AIRL, GAIL, T-REX, D-REX, SSRR.
-      </div>
-  </center>
+
+  - **Demonstrations**
+
+    <center>
+        <img src="./figs/Ant-v2/ppo_2000000.gif" alt="ppo_2000000" style="zoom:75%;" >
+        <img src="./figs/Ant-v2/ppo_3000000.gif" alt="ppo_3000000" style="zoom:75%;">
+        <img src="./figs/Ant-v2/ppo_3500000.gif" alt="ppo_3500000" style="zoom:75%;">
+        <img src="./figs/Ant-v2/ppo_5000000.gif" alt="ppo_5000000" style="zoom:75%;">
+        <img src="./figs/Ant-v2/ppo_10000000.gif" alt="ppo_10000000" style="zoom:75%;">
+        <br> 
+        <div align="center">
+            Figure 5: Demonstrations in Ant environment with increasing optimality.
+        </div>
+    </center>
+
+  - **Trained Agents**
+
+    <center>
+        <img src="./figs/Ant-v2/cail_actor_0.gif" alt="cail" style="zoom:75%;" >
+        <img src="./figs/Ant-v2/2iwil_actor_0.gif" alt="2iwil" style="zoom:75%;">
+        <img src="./figs/Ant-v2/icgail_actor_0.gif" alt="icgail" style="zoom:75%;">
+        <img src="./figs/Ant-v2/airl_actor_0.gif" alt="airl" style="zoom:75%;">
+        <img src="./figs/Ant-v2/gail_actor_0.gif" alt="gail" style="zoom:75%;">
+        <img src="./figs/Ant-v2/trex_actor_0.gif" alt="trex" style="zoom:75%;">
+        <img src="./figs/Ant-v2/drex_actor_0.gif" alt="drex" style="zoom:75%;">
+        <img src="./figs/Ant-v2/ssrr_actor_0.gif" alt="ssrr" style="zoom:75%;">
+        <br> 
+        <div align="center">
+            Figure 6: Behavior of the trained agents in Ant environment. Order: CAIL, 2IWIL, IC-GAIL, AIRL, GAIL, T-REX, D-REX, SSRR.
+        </div>
+    </center>
 
 ## Citation
 
