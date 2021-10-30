@@ -1,6 +1,6 @@
 # Confidence-Aware Imitation Learning
 
-![Conference](https://img.shields.io/badge/NeurIPS-Accepted-success)
+[![Conference](https://img.shields.io/badge/NeurIPS-Accepted-success)](https://sites.google.com/view/cail/) [![Arxiv](http://img.shields.io/badge/arxiv-2110.14754-B31B1B.svg)](https://arxiv.org/abs/2110.14754)
 
 Official implementation of the NeurIPS 2021 paper: [S Zhang](https://syzhang092218-source.github.io), [Z Cao](https://caozhangjie.github.io/), [D  Sadigh](https://dorsa.fyi), [Y Sui](https://www.yanansui.com/): "Confidence-Aware Imitation Learning from Demonstrations  with Varying Optimality"
 
